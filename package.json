@@ -1,0 +1,25 @@
+{
+  "name": "nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "dev-custom-server1": "node server1.js",
+    "start-custom-server1": "NODE_ENV=production node server1.js",
+    "dev-custom-server2": "node server2.js",
+    "start-custom-server2": "NODE_ENV=production node server2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "next": "^9.5.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
